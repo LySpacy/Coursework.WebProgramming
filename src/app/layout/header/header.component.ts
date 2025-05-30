@@ -22,15 +22,15 @@ export class HeaderComponent {
     },
     {
       name: 'Спринты',
-      url: '/inDevelopment',
+      url: '/dev',
     },
     {
       name: 'Задачи',
-      url: '/inDevelopment'
+      url: '/dev'
     },
     {
       name: 'Пользователи',
-      url: '/inDevelopment'
+      url: '/dev'
     }
   ];
 

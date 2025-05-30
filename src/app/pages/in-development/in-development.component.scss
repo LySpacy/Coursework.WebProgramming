@@ -1,0 +1,44 @@
+.button{
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 1);
+  cursor: pointer;
+  min-width: 204px;
+  border-radius: 12px;
+  padding: 16px;
+
+  span {
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+.error {
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+  width: 100%;
+  justify-content: center;
+  background-color: #63A893;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.type-error {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.message-error {
+  color: rgba(255, 255, 255, 1);
+  line-height: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+  font-size: 24px;
+}
