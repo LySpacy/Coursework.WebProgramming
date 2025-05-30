@@ -12,6 +12,5 @@ import {RouterLink} from '@angular/router';
 export class InDevelopmentComponent {
 
   constructor() {
-    document.body.classList.add('no-scroll');
   }
 }
